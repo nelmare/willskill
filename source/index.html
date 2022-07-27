@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nootris. Витаминный напиток для иммунитета">
+    <title>Nootris</title>
+    <link rel="preload" href="fonts/rubikregular.woff2" as="font" crossorigin>
+    <link rel="preload" href="fonts/rubikbold.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body class="page-body no-scrollbar">
+    <div class="wrapper">
+      <div class="page-body__image-container">
+        <picture>
+          <source type="image/webp" srcset="img/content/intro-image@1x.webp 1x, img/content/intro-image@2x.webp 2x">
+          <!-- 1х: 816px; 2x: 1632px -->
+          <img src="img/content/intro-image@1x.png" srcset="img/content/intro-image@2x.png 2x"
+            width="816" height="984" alt="Изображение Nootris, имбиря и лимона">
+        </picture>
+      </div>
+      <header class="page-header">
+        <nav class="main-nav is-nojs is-closed">
+          <div class="main-nav__container container">
+            <a class="main-nav__logo" aria-label="Логотип Nootris">
+              <!-- 1х: 120px -->
+              <img src="img/svg/logo.svg" width="120" height="35" alt="Логотип Nootris">
+            </a>
+            <button class="main-nav__toggle main-nav__toggle--nojs" type="button">
+              <span class="visually-hidden">Открыть меню / Закрыть меню</span>
+            </button>
+            <div class="main-nav__list-wrapper">
+              <ul class="main-nav__list site-list">
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+                <li>
+                  <a href="#">Оплата и доставка</a>
+                </li>
+                <li>
+                  <a href="#">Возврат</a>
+                </li>
+                <li>
+                  <a href="#">Исследования</a>
+                </li>
+                <li>
+                  <a href="#">Личный кабинет</a>
+                </li>
+                <li>
+                  <address>
+                    <a class="main-nav__link main-nav__link--phone" href="tel:+888006000990" aria-label="tel:+888006000990">
+                      <span>8 8 (800) 600-09-90</span>
+                    </a>
+                  </address>
+                </li>
+              </ul>
+              <div class="main-nav__cart cart">
+              <!-- класс .cart__link--empty убирает показ количества товаров в корзине-->
+                <a class="cart__link cart__link--full" href="#" aria-label="Корзина покупок">
+                  <svg aria-hidden="true" focusable="false" role="img"  width="32" height="28" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32 9.99998H26.5662L20.8575 0.485351C20.5743 0.012716 19.96 -0.141597 19.4854 0.142589C19.0118 0.426776 18.8585 1.041 19.1427 1.51464L24.2338 9.99998H7.76622L12.8574 1.51458C13.1416 1.04093 12.9883 0.426709 12.5147 0.142522C12.0391 -0.141665 11.4268 0.0126487 11.1426 0.485283L5.43389 9.99992H0V11.9999H2.17042L4.71093 25.5517C4.97653 26.9707 6.21676 28 7.66018 28H24.3399C25.7832 28 27.0235 26.9707 27.2881 25.5527L29.8295 11.9999H32.0001C32 11.9999 32 9.99998 32 9.99998ZM25.3222 25.1846C25.2344 25.6572 24.8213 26 24.3398 26H7.66018C7.17873 26 6.76568 25.6573 6.67681 25.1836L4.20463 11.9999H27.7954L25.3222 25.1846Z" fill="white"/>
+                  </svg>
+                  <span class="cart__quantity">1</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <section class="intro">
+          <div class="intro__container container">
+            <div class="intro__image-container">
+              <picture>
+                <source type="image/webp" srcset="img/content/intro-image@1x.webp 1x, img/content/intro-image@2x.webp 2x">
+                <!-- 1х: 816px; 2x: 1632px -->
+                <img src="img/content/intro-image@1x.png" srcset="img/content/intro-image@2x.png 2x"
+                  width="816" height="984" alt="Изображение Nootris, имбиря и лимона">
+              </picture>
+            </div>
+            <div class="intro__info-container">
+              <h1>Активируй иммунитет!</h1>
+              <p>Всего пять секунд в день помогут укрепить иммунитет и&nbsp;повысить защитные силы организма</p>
+              <p><span>Nootris помогает</span> Вашему организму во время пандемии и&nbsp;сезонных простуд</p>
+            </div>
+          </div>
+        </section>
+      </header>
+      <main class="page-main">
+        <section class="promo">
+          <div class="promo__container container">
+            <h2>Получи защиту иммунитета<br> <span>со скидкой -15% первым!</span></h2>
+            <div class="promo__wrapper">
+              <div class="promo__content promo__content--ginger">
+                <div class="promo__image-container">
+                  <picture>
+                    <source type="image/webp" srcset="img/content/ginger@1x.webp 1x, img/content/ginger@2x.webp 2x">
+                    <!-- 1х: 193px; 2x: 386px -->
+                    <img src="img/content/ginger@1x.png" srcset="img/content/ginger@2x.png 2x"
+                      width="193" height="168" alt="Имбирь">
+                  </picture>
+                </div>
+                <p>Содержит <span>имбирь</span></p>
+              </div>
+              <div class="promo__content promo__content--nootris">
+                <p><del>750₽</del> 690₽</p>
+                <div class="promo__image-container">
+                  <picture>
+                    <source type="image/webp" srcset="img/content/nootris@1x.webp 1x, img/content/nootris@2x.webp 2x">
+                    <!-- 1х: 480px; 2x: 960px -->
+                    <img src="img/content/nootris@1x.png" srcset="img/content/nootris@2x.png 2x"
+                      width="480" height="160" alt="Желтый флакон">
+                  </picture>
+                </div>
+                <div class="promo__info-wrapper">
+                  <p>+ Бесплатная доставка</p>
+                  <span>Специальная цена</span>
+                </div>
+              </div>
+              <div class="promo__content promo__content--virus">
+                <div class="promo__image-container">
+                  <picture>
+                    <source type="image/webp" srcset="img/content/virus@1x.webp 1x, img/content/virus@2x.webp 2x">
+                    <!-- 1х: 192px; 2x: 384px -->
+                    <img src="img/content/virus@1x.png" srcset="img/content/virus@2x.png 2x"
+                      width="192" height="160" alt="Изображение вируса зеленого цвета">
+                  </picture>
+                </div>
+                <p>Нейтрализует <span>вирусы</span></p>
+              </div>
+            </div>
+            <a href="#" class="button promo__order-button">Оформить заказ</a>
+            <div class="promo__alert">
+              <p>Товар добавлен в корзину</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
